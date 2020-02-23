@@ -1,19 +1,5 @@
-/*!
-Theme Name: Eldon London
-Theme URI: http://stockie.colabr.io/
-Author: Kunal Dandona
-Author URI: http://colabr.io/
-Description: Stockie is a WordPress theme bundled with premium plugins to build a modern and functional website.
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Template: stockie
-Text Domain: stockie-child
-Tags: ajax, customizer, ecommerce, portfolio, minimal, page builder, responsive, multipurpose, shop, store, woocommerce, wpml
+.wpb_revslider_element h2, .wpb_revslider_element h4, .wpb_revslider_element span {
+  font-family: futura-pt, sans-serif;
+}
 
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
-*/
+/*# sourceMappingURL=style.css.map */
