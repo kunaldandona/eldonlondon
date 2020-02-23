@@ -13,7 +13,7 @@ Text Domain: stockie-child
 
 */
 .wpb_revslider_element h2, .wpb_revslider_element h4, .wpb_revslider_element span {
-  font-family: futura-pt, sans-serif;
+  font-family: futura-pt, sans-serif !important;
 }
 
 /*# sourceMappingURL=style.css.map */
