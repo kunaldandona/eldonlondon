@@ -54,7 +54,13 @@ header .menu a {
   color: black;
 }
 .submenu_cart .woo-c_product_category a {
-  color: gold;
+  color: #171300;
+}
+.submenu_cart .amount {
+  font-weight: 300;
+}
+.submenu_cart .woocommerce-mini-cart__total {
+  text-transform: uppercase;
 }
 
 .site-header .menu-other > li .cart-total > a {

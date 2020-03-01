@@ -63,7 +63,15 @@ header {
     color: black;
   }
   .woo-c_product_category a {
-    color: gold;
+    color: #171300;
+  }
+
+  .amount {
+    font-weight: 300;
+  }
+
+  .woocommerce-mini-cart__total {
+    text-transform: uppercase;
   }
 }
 
