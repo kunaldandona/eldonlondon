@@ -57,7 +57,7 @@ header .menu a {
   color: gold;
 }
 
-.header-cart .woocommerce-Price-amount {
+.site-header .menu-other > li .cart-total > a {
   color: white;
 }
 
