@@ -105,3 +105,9 @@ header {
 }
 
 
+.header-search {
+  background: rgba(0, 0, 0, 0.96);
+  .suggestions, .product_search_description {
+    color: white;
+  }
+}

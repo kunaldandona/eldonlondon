@@ -89,4 +89,11 @@ header .menu a {
   background: #b79b6c;
 }
 
+.header-search {
+  background: rgba(0, 0, 0, 0.96);
+}
+.header-search .suggestions, .header-search .product_search_description {
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
