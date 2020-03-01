@@ -106,6 +106,9 @@ header .menu a {
   header .site-header .menu-other > li > a.cart {
     padding: 0 !important;
   }
+  header .test {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
