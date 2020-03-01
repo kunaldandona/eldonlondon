@@ -78,3 +78,15 @@ header {
 .site-header .menu-other > li .cart-total > a {
     color: white;
 }
+
+@media (min-width: 1200px) {
+  .vc_col-lg-8 {
+    width: 100%;
+  }
+
+  .vc_col-lg-push-2 {
+    left: 0;
+  }
+}
+
+
