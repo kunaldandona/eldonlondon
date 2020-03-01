@@ -85,5 +85,8 @@ header .menu a {
     left: 0 !important;
   }
 }
+.message-box.primary {
+  background: #b79b6c;
+}
 
 /*# sourceMappingURL=style.css.map */
