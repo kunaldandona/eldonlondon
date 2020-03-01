@@ -117,7 +117,7 @@ header {
   header {
     .site-title {
       a {
-        font-size: 20px;
+        font-size: 20px !important;
       }
     }
     .header-cart {
@@ -126,7 +126,7 @@ header {
       }
     }
     .site-header .menu-other > li > a.cart {
-      padding: 0;
+      padding: 0 !important;
     }
   }
 }
