@@ -69,11 +69,20 @@ header .menu a {
 
 @media (min-width: 1200px) {
   .vc_col-lg-8 {
-    width: 100%;
+    width: 100% !important;
   }
 
   .vc_col-lg-push-2 {
-    left: 0;
+    left: 0 !important;
+  }
+}
+@media (min-width: 992px) {
+  .vc_col-lg-8 {
+    width: 100% !important;
+  }
+
+  .vc_col-lg-push-2 {
+    left: 0 !important;
   }
 }
 
