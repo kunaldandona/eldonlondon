@@ -108,7 +108,7 @@ header .menu a {
   }
 }
 header {
-  z-index: 999;
+  z-index: 999 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
