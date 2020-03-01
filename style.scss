@@ -111,3 +111,19 @@ header {
     color: white;
   }
 }
+
+
+@media (max-width: 550px) {
+  header {
+    .site-title {
+      a {
+        font-size: 20px;
+      }
+    }
+    .header-cart {
+      .cart-total {
+        display: none;
+      }
+    }
+  }
+}
