@@ -34,7 +34,7 @@ body, h1, h2, h3, h4, h5, h6, a, p {
 }
 .header-cart {
   a {
-    color: white !important;
+    color: white;
   }
 }
 
@@ -49,4 +49,18 @@ header {
 .modal-content {
   background-color: rgba(0,0,0,0.6);
   padding: .0em;
+}
+
+.submenu_cart {
+  .cart_heading_title {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2rem;
+    border-bottom: 10px solid black;
+    padding-bottom: 10px;
+  }
+  .font-titles {
+    color: black;
+
+  }
 }
