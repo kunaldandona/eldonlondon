@@ -103,6 +103,9 @@ header .menu a {
   header .header-cart .cart-total {
     display: none;
   }
+  header .site-header .menu-other > li > a.cart {
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
