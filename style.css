@@ -38,4 +38,8 @@ header .menu a {
   text-transform: uppercase;
 }
 
+.subscribe-popup {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 /*# sourceMappingURL=style.css.map */
