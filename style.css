@@ -53,5 +53,8 @@ header .menu a {
 .submenu_cart .font-titles {
   color: black;
 }
+.submenu_cart .woo-c_product_category a {
+  color: gold;
+}
 
 /*# sourceMappingURL=style.css.map */
