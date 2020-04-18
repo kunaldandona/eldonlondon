@@ -116,6 +116,9 @@ header {
   flex-direction: column;
   margin: 60px 0;
 }
+.woocommerce .registered_users {
+  padding: 10px;
+}
 .woocommerce .woocommerce-notices-wrapper {
   order: 1;
 }
