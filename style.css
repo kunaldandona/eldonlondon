@@ -111,4 +111,27 @@ header {
   z-index: 999 !important;
 }
 
+.woocommerce {
+  display: flex;
+  flex-direction: column;
+  margin: 60px 0;
+}
+.woocommerce .woocommerce-notices-wrapper {
+  order: 1;
+}
+.woocommerce .woocommerce-checkout {
+  order: 2;
+}
+.woocommerce p {
+  order: 0;
+  margin-left: 10px;
+}
+.woocommerce .checkout_coupon {
+  order: 0;
+  margin-left: 10px;
+}
+.woocommerce .select {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

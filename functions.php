@@ -12,7 +12,7 @@ add_filter( 'woocommerce_available_payment_gateways', 'gateway_disable_country' 
 
 function gateway_disable_country( $available_gateways ) {
     if ( is_admin() ) return $available_gateways;
-    if ( isset( $available_gateways['cod'] ) && WC()->customer->get_billing_country() != 'IN' ) {
+    if ( isset( $available_gateways['cod'] ) && WC_Customer()->get_billing_country() != 'IN' ) {
         unset( $available_gateways['cod'] );
     }
     return $available_gateways;
