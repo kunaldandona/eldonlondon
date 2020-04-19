@@ -140,5 +140,8 @@ header {
 .woocommerce .woocommerce-additional-fields {
   display: none;
 }
+.woocommerce .ul.payment_methods li label img {
+  max-height: unset;
+}
 
 /*# sourceMappingURL=style.css.map */

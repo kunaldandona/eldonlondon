@@ -177,4 +177,8 @@ header {
   .woocommerce-additional-fields {
     display: none;
   }
+
+  .ul.payment_methods li label img {
+    max-height: unset;
+  }
 }
