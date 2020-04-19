@@ -137,5 +137,8 @@ header {
 .woocommerce .select {
   width: 100%;
 }
+.woocommerce .woocommerce-additional-fields {
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */
