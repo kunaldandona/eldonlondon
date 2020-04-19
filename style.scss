@@ -178,7 +178,7 @@ header {
     display: none;
   }
 
-  .ul.payment_methods li label img {
+  ul.payment_methods li label img {
     max-height: unset;
   }
 
@@ -189,7 +189,11 @@ header {
     text-transform: uppercase;
   }
 
-  #billing_company_field {
+  #billing_company_field, .woo-c_product_category {
     display: none;
+  }
+
+  .qty {
+    display: block;
   }
 }

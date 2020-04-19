@@ -140,7 +140,7 @@ header {
 .woocommerce .woocommerce-additional-fields {
   display: none;
 }
-.woocommerce .ul.payment_methods li label img {
+.woocommerce ul.payment_methods li label img {
   max-height: unset;
 }
 .woocommerce .cclw_button {
@@ -149,8 +149,11 @@ header {
   font-size: 1.5em;
   text-transform: uppercase;
 }
-.woocommerce #billing_company_field {
+.woocommerce #billing_company_field, .woocommerce .woo-c_product_category {
   display: none;
+}
+.woocommerce .qty {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
