@@ -143,7 +143,7 @@ header {
 .woocommerce .ul.payment_methods li label img {
   max-height: unset;
 }
-.woocommerce .woocommerce-checkout .woocommerce .cclw_button {
+.woocommerce .cclw_button {
   height: 50px;
   font-size: 1.5em;
   text-transform: uppercase;
