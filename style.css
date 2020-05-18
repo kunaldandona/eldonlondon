@@ -193,6 +193,10 @@ a.menu-link.sub-menu-link span {
   .woo_c-product-image {
     margin-top: 80px;
   }
+
+  .filter-container.active .mbl-overlay .filter {
+    margin: 0;
+  }
 }
 .subheader ul:not(.select-options):not(.dd-options).left > li:after {
   display: none;
