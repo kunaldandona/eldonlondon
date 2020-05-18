@@ -159,4 +159,8 @@ sup.menu-sub-items {
   display: none;
 }
 
+a.menu-link.sub-menu-link span {
+  color: black;
+}
+
 /*# sourceMappingURL=style.css.map */
