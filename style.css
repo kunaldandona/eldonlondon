@@ -183,40 +183,44 @@ a.menu-link.sub-menu-link span {
   .hamburger-menu#hamburger-menu {
     display: inline-block;
   }
+}
+.subheader ul:not(.select-options):not(.dd-options).left > li:after {
+  display: none;
+}
 
-  .subheader ul:not(.select-options):not(.dd-options).left > li:after {
-    display: none;
-  }
-
-  .subheader .page-container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .subheader .page-container .left {
-    flex-basis: 50%;
-    display: flex;
-    align-items: center;
-  }
-  .subheader .page-container .left li:after {
-    display: none;
-  }
-  .subheader .page-container .right {
-    flex-basis: 50%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  .subheader .page-container .right li a {
-    font-size: 16px;
-  }
-  .subheader .page-container .contact-no {
-    font-size: 16px;
-    margin: 0px 0 0 10px;
-  }
-  .subheader .page-container .whatsapp-no {
-    height: 22px;
-    margin-top: 3px;
-  }
+.subheader .page-container {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.subheader .page-container .left {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+}
+.subheader .page-container .left li:after {
+  display: none;
+}
+.subheader .page-container .left img {
+  height: 22px;
+  margin-top: 3px;
+}
+.subheader .page-container .right {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.subheader .page-container .right li a {
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  padding: 3px 10px;
+  background: black;
+  color: white;
+}
+.subheader .page-container .contact-no {
+  font-size: 16px;
+  margin: 0px 0 0 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

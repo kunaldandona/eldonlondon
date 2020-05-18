@@ -226,45 +226,54 @@ a.menu-link.sub-menu-link span {
     display: inline-block;
   }
 
-  .subheader ul:not(.select-options):not(.dd-options).left > li:after {
-    display: none;
-  }
+}
 
-  .subheader .page-container {
-    flex-direction: row;
-    justify-content: space-between;
 
-    .left {
-      flex-basis: 50%;
-      display: flex;
-      align-items: center;
 
-      li:after {
-        display: none;
-      }
+.subheader ul:not(.select-options):not(.dd-options).left > li:after {
+  display: none;
+}
+
+.subheader .page-container {
+  flex-direction: row;
+  justify-content: space-between;
+
+  .left {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+
+    li:after {
+      display: none;
     }
 
-    .right {
-      flex-basis: 50%;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-
-      li {
-        a {
-          font-size: 16px;
-        }
-      }
-    }
-
-    .contact-no {
-      font-size: 16px;
-      margin: 0px 0 0 10px;
-    }
-
-    .whatsapp-no {
+    img {
       height: 22px;
       margin-top: 3px;
     }
   }
+
+  .right {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    li {
+      a {
+        border-radius: 10px;
+        font-size: 16px;
+        border: 1px solid black;
+        padding: 3px 10px;
+        background: black;
+        color: white;
+      }
+    }
+  }
+
+  .contact-no {
+    font-size: 16px;
+    margin: 0px 0 0 10px;
+  }
+
 }
