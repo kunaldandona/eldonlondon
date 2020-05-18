@@ -183,6 +183,10 @@ a.menu-link.sub-menu-link span {
   .hamburger-menu#hamburger-menu {
     display: inline-block;
   }
+
+  .subheader ul {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
