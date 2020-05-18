@@ -114,7 +114,6 @@ header {
 .woocommerce {
   display: flex;
   flex-direction: column;
-  padding-bottom: 80px !important;
 }
 .woocommerce .registered_users {
   padding: 10px;
@@ -161,6 +160,10 @@ sup.menu-sub-items {
 
 a.menu-link.sub-menu-link span {
   color: black;
+}
+
+.subscribe-form {
+  min-width: 340px;
 }
 
 /*# sourceMappingURL=style.css.map */
