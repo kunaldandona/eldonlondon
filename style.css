@@ -194,20 +194,28 @@ a.menu-link.sub-menu-link span {
   }
   .subheader .page-container .left {
     flex-basis: 50%;
+    display: flex;
+    align-items: center;
   }
   .subheader .page-container .left li:after {
     display: none;
   }
   .subheader .page-container .right {
     flex-basis: 50%;
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
   .subheader .page-container .right li a {
     font-size: 16px;
   }
   .subheader .page-container .contact-no {
     font-size: 16px;
-    margin: -3px 0 0 10px;
+    margin: 0px 0 0 10px;
+  }
+  .subheader .page-container .whatsapp-no {
+    height: 22px;
+    margin-top: 3px;
   }
 }
 

@@ -236,6 +236,9 @@ a.menu-link.sub-menu-link span {
 
     .left {
       flex-basis: 50%;
+      display: flex;
+      align-items: center;
+
       li:after {
         display: none;
       }
@@ -243,7 +246,9 @@ a.menu-link.sub-menu-link span {
 
     .right {
       flex-basis: 50%;
-      text-align: right;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
 
       li {
         a {
@@ -254,7 +259,12 @@ a.menu-link.sub-menu-link span {
 
     .contact-no {
       font-size: 16px;
-      margin: -3px 0 0 10px;
+      margin: 0px 0 0 10px;
+    }
+
+    .whatsapp-no {
+      height: 22px;
+      margin-top: 3px;
     }
   }
 }
