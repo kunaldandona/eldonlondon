@@ -175,4 +175,8 @@ a.menu-link.sub-menu-link span {
   width: 100px;
 }
 
+.product-content .category {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
