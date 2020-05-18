@@ -226,6 +226,12 @@ a.menu-link.sub-menu-link span {
     display: inline-block;
   }
 
+  .mbl-overlay-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
 }
 
 
@@ -258,7 +264,7 @@ a.menu-link.sub-menu-link span {
 
 
     li {
-      display: flex;
+      display: flex !important;
       justify-content: flex-end;
       align-items: center;
 
@@ -282,3 +288,5 @@ a.menu-link.sub-menu-link span {
   }
 
 }
+
+

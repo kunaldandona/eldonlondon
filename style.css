@@ -183,6 +183,12 @@ a.menu-link.sub-menu-link span {
   .hamburger-menu#hamburger-menu {
     display: inline-block;
   }
+
+  .mbl-overlay-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 .subheader ul:not(.select-options):not(.dd-options).left > li:after {
   display: none;
@@ -208,7 +214,7 @@ a.menu-link.sub-menu-link span {
   flex-basis: 50%;
 }
 .subheader .page-container .right li {
-  display: flex;
+  display: flex !important;
   justify-content: flex-end;
   align-items: center;
 }
