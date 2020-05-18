@@ -163,7 +163,12 @@ a.menu-link.sub-menu-link span {
 }
 
 .subscribe-form {
-  min-width: 340px;
+  min-width: 270px;
+}
+@media screen and (min-width: 500px) {
+  .subscribe-form {
+    min-width: 350px;
+  }
 }
 
 #variation_pa_shoe-size .label {
