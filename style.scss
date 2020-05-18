@@ -289,4 +289,7 @@ a.menu-link.sub-menu-link span {
 
 }
 
+.main-nav .nav-item:before, .main-nav .nav-item.current-menu-item:before {
+  background-color: #fff;
+}
 

@@ -234,4 +234,8 @@ a.menu-link.sub-menu-link span {
   margin: 0px 0 0 10px;
 }
 
+.main-nav .nav-item:before, .main-nav .nav-item.current-menu-item:before {
+  background-color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
