@@ -189,6 +189,10 @@ a.menu-link.sub-menu-link span {
     flex-direction: column;
     justify-content: space-between;
   }
+
+  .woo_c-product-image {
+    margin-top: 80px;
+  }
 }
 .subheader ul:not(.select-options):not(.dd-options).left > li:after {
   display: none;
