@@ -179,4 +179,10 @@ a.menu-link.sub-menu-link span {
   display: none;
 }
 
+@media screen and (max-width: 1024px) {
+  .hamburger-menu#hamburger-menu {
+    display: inline-block;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
