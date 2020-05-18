@@ -267,6 +267,9 @@ a.menu-link.sub-menu-link span {
         padding: 3px 10px;
         background: black;
         color: white;
+        &:before {
+          display: none;
+        }
       }
     }
   }
